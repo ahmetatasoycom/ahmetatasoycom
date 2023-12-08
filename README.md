@@ -1,8 +1,6 @@
 <h1 align="center">Hi 👋, I'm Ahmet</h1>
 <h3 align="center">Game Developer & Frontend Developer & Mobile App Developer</h3>
 
-<p align="left"> <a ><img src="https://github-profile-trophy.vercel.app/?username=at4soy" alt="at4soy" /></a> </p>
-
 - 🌱 Şuan da öğrendiklerim: **ReactJS & NodeJS**
 
 <h3 align="left">Bağlantılarım;</h3>
