@@ -1,5 +1,5 @@
 <h1 align="center">Hi 👋, I'm Ahmet</h1>
-<h3 align="center">Game Developer & Frontend Developer & Mobile App Developer</h3>
+<h3 align="center">Full-Stack Developer & Mobile App Developer</h3>
 
 🌱 Yazılım öğrencisiyim ve kariyerime Python ile başladım. Ortalama 1 yıl Python kodladıktan sonra JavaScript ve NodeJS ile Discord botu kodlayarak ücretli hizmetler sundum. Daha sonra C, C# ve C++ öğrenmeye başladım. Şuan da C# ve JavaScript üzerine daha yoğunluklu olduğumu söyleyebilirim. C# ile  .NET masaüstü uygulama ve Unity Engine oyun motoru ile oyun geliştirebiliyorum. Blender ve 2D tasarımlar yapabiliyorum ve Photoshop biliyorum. Bunun dışında HTML5 ve CSS3 biliyorum.
 
