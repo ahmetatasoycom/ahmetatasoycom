@@ -69,7 +69,7 @@
 ###
 
 <div align="center">
-  <img height="300" src="https://i.imgur.com/fUQRcQ8.png"  />
+  <img height="300" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm1yMzZ3ajR3NjN4ZjI4aDc1d3VsbjVlZjhydDB2Y3BrYWFnN2NjZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5u9QXgZCNYY4AvFQpY/giphy.gif"  />
 </div>
 
 ###
