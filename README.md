@@ -70,7 +70,7 @@
 ###
 
 <div align="center">
-  <img src="https://cdn.discordapp.com/attachments/1156513921168060426/1227207699226296381/Adsz_tasarm_1.gif?ex=6627913b&is=66151c3b&hm=6314a846bed0ec48eaf04512160c988050cfc65f6e0552739046428511886ade&">
+  <img src="https://cdn.discordapp.com/attachments/1156513921168060426/1227207699226296381/Adsz_tasarm_1.gif">
 </div>
 
 ###
