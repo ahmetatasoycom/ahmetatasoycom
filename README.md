@@ -70,7 +70,7 @@
 ###
 
 <div align="center">
-  <img src="https://imgur.com/y0BWsmP">
+  <img height="400" src="https://i.imgur.com/y0BWsmP.gif"  />
 </div>
 
 ###
