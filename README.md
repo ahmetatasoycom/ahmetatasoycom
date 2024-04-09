@@ -5,8 +5,8 @@
 
 <h3 align="left">Bağlantılarım;</h3>
 <p align="left">
-<a href="https://codepen.io/at4soy" target="blank"><img align="center"
- src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="at4soy" height="30" width="40" /></a>
+ 
+<a href="https://codepen.io/at4soy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/codepen.svg" alt="at4soy" height="30" width="40" /></a>
 <a href="https://twitter.com/at4soyy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/twitter.svg" alt="at4soyy" height="30" width="40" /></a>
 <a href="https://stackoverflow.com/users/23066326" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/stack-overflow.svg" alt="23066326" height="30" width="40" /></a>
 <a href="https://instagram.com/at4soy" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="at4soy" height="30" width="40" /></a>
