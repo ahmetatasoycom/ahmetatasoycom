@@ -70,7 +70,7 @@
 ###
 
 <div align="center">
-  <img src="https://media.discordapp.net/attachments/1156513921168060426/1227207699226296381/Adsz_tasarm_1.gif?ex=6627913b&is=66151c3b&hm=6314a846bed0ec48eaf04512160c988050cfc65f6e0552739046428511886ade&=&width=1440&height=504">
+  <blockquote class="imgur-embed-pub" lang="en" data-id="y0BWsmP"><a href="https://imgur.com/y0BWsmP">View post on imgur.com</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 </div>
 
 ###
