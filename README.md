@@ -2,6 +2,8 @@
 
 ###
 
+<h3 align="center">learning php & laravel</h1>
+
 <p align="center">Yazılım öğrencisiyim ve kariyerime Python ile başladım. Ortalama 1 yıl Python kodladıktan sonra JavaScript ve NodeJS ile Discord botu kodlayarak ücretli hizmetler sundum. Daha sonra C, C# ve C++ öğrenmeye başladım. Sonrasında C# ile Unity Engine kullanmaya başlayarak 1-1.5 yıl boyunca oyun geliştirmeye başladım. Bu sırada Blender ve PixelArt öğrendim. Bunun sonrasında HTML5, CSS3, JS, Bootstrap vb. web alanlarında kendimi geliştirerek web sitesi geliştirmeye başladım. Şuan da veri tabanlı web siteleri ve veri tabanlı mobil uygulamalar geliştiriyorum.</p>
 
 ###
