@@ -2,7 +2,7 @@
 
 ###
 
-<h3 align="center">learning php & laravel</h1>
+<img src="https://cdn.simpleicons.org/apache/D22128" height="20" alt="apache logo"  /> <img width="12" /> <h3 align="center">learning php & laravel</h1>
 
 <p align="center">Yazılım öğrencisiyim ve kariyerime Python ile başladım. Ortalama 1 yıl Python kodladıktan sonra JavaScript ve NodeJS ile Discord botu kodlayarak ücretli hizmetler sundum. Daha sonra C, C# ve C++ öğrenmeye başladım. Sonrasında C# ile Unity Engine kullanmaya başlayarak 1-1.5 yıl boyunca oyun geliştirmeye başladım. Bu sırada Blender ve PixelArt öğrendim. Bunun sonrasında HTML5, CSS3, JS, Bootstrap vb. web alanlarında kendimi geliştirerek web sitesi geliştirmeye başladım. Şuan da veri tabanlı web siteleri ve veri tabanlı mobil uygulamalar geliştiriyorum.</p>
 
@@ -36,6 +36,10 @@
   <img src="https://skillicons.dev/icons?i=ps" height="40" alt="adobephotoshop logo"  />
   <img width="12" />
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/canva/canva-original.svg" height="40" alt="canva logo"  />
+  <img width="12" />
+  <img src="https://cdn.simpleicons.org/git/F05032" height="40" alt="git logo"  />
+  <img width="12" />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/filezilla/filezilla-plain.svg" height="40" alt="filezilla logo"  />
   <img width="12" />
 </div>
 
