@@ -45,14 +45,14 @@
 
 ###
 
-<div align="center" style="text-decoration:none;">
-  <a href="https://www.linkedin.com/in/ahmetatasoydev/" target="_blank">
+<div align="center">
+  <a href="https://www.linkedin.com/in/ahmetatasoydev/" target="_blank" style="text-decoration: none;">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/linkedin/default.svg" width="52" height="40" alt="linkedin logo"  />
   </a>
-  <a href="https://www.instagram.com/at4soy/" target="_blank">
+  <a href="https://www.instagram.com/at4soy/" target="_blank" style="text-decoration: none;">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/instagram/default.svg" width="52" height="40" alt="instagram logo"  />
   </a>
-  <a href="https://twitter.com/at4soyy" target="_blank">
+  <a href="https://twitter.com/at4soyy" target="_blank" style="text-decoration: none;">
     <img src="https://raw.githubusercontent.com/maurodesouza/profile-readme-generator/master/src/assets/icons/social/twitter/default.svg" width="52" height="40" alt="twitter logo"  />
   </a>
   <a href="https://discord.gg/5rzkVaBK9G" target="_blank">
