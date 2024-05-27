@@ -4,7 +4,7 @@
 
  <h3 align="center">!learning php & laravel!</h1>
 
-<p align="center">Yazılım öğrencisiyim ve kariyerime Python ile başladım. Ortalama 1 yıl Python kodladıktan sonra JavaScript ve NodeJS ile Discord botu kodlayarak ücretli hizmetler sundum. Daha sonra C, C# ve C++ öğrenmeye başladım. Sonrasında C# ile Unity Engine kullanmaya başlayarak 1-1.5 yıl boyunca oyun geliştirmeye başladım. Bu sırada Blender ve PixelArt öğrendim. Bunun sonrasında HTML5, CSS3, JS, Bootstrap vb. web alanlarında kendimi geliştirerek web sitesi geliştirmeye başladım. Şuan da veri tabanlı web siteleri ve veri tabanlı mobil uygulamalar geliştiriyorum.</p>
+<p align="center">Hello! I am a software student and started my career with Python. After coding Python for an average of 1 year, I offered paid services by coding Discord bots with JavaScript and NodeJS. Then I started learning C# and C++. I developed Arduino with C++ and then started using Unity Engine with C# and developed games for 1-1.5 years. In the meantime, I learnt Blender and PixelArt. Afterwards, HTML5, CSS3, JS, Bootstrap etc. I started to develop websites by improving myself in web areas. I am currently developing data-based websites and data-based mobile applications.</p>
 
 ###
 
