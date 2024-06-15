@@ -76,6 +76,66 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 document.addEventListener('DOMContentLoaded', function () {
+  const codeDisplay2 = document.getElementById('code2');
+  const copyButton2 = document.getElementById('copyButton2');
+  const copiedText2 = document.getElementById('copiedText2');
+
+  const codes = {
+    linkh1: `<div class="h-16 ...">h-16</div>`,
+    linkh2: `<div class="h-20 ...">h-20</div>`,
+    linkh3: `<div class="h-24 ...">h-24</div>`,
+    linkh4: `<div class="h-32 ...">h-32</div>`,
+    linkh5: `<div class="h-40 ...">h-40</div>`,
+  };
+
+  document.getElementById('linkh1').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay2.textContent = codes.linkh1;
+  });
+
+  document.getElementById('linkh2').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay2.textContent = codes.linkh2;
+  });
+
+  document.getElementById('linkh3').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay2.textContent = codes.linkh3;
+  });
+  document.getElementById('linkh4').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay2.textContent = codes.linkh4;
+  });
+
+  document.getElementById('linkh5').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay2.textContent = codes.linkh5;
+  });
+
+  copyButton2.addEventListener('click', function () {
+    const code = codeDisplay2.textContent;
+    navigator.clipboard.writeText(code).then(function () {
+      copiedText2.classList.add('show');
+      setTimeout(function () {
+        copiedText2.classList.remove('show');
+      }, 2000);
+    }, function () {
+      alert('Kopyalama işlemi başarısız oldu.');
+    });
+  });
+
+
+});
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
   const codeDisplay3 = document.getElementById('code3');
   const copyButton3 = document.getElementById('copyButton3');
   const copiedText3 = document.getElementById('copiedText3');
