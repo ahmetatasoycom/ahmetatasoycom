@@ -1,0 +1,467 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:700');
+
+
+body {
+	background-color: #fdfdfd;
+}
+
+.animation-link {
+	font-family: Arial;
+	text-decoration: none;
+	color: #111;
+	font-size: 18px;
+	display: inline-block;
+	height: 30px;
+	overflow: hidden;
+}
+
+.animation-link:hover>div {
+	transform: translateY(-50%);
+}
+
+.animation-link>div {
+	transition: 0.2s ease-out;
+}
+
+.animation-link>div>div {
+	height: 30px;
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
+.working-text h1 {
+	font-weight: 900;
+	font-size: 70px;
+}
+
+.animation {
+	height: 90px;
+	overflow: hidden;
+	margin-left: 1rem;
+}
+
+.animation>div>div {
+	padding: 1rem 4rem;
+	height: 4.81rem;
+	display: inline-block;
+}
+
+.third h1 {
+	margin-bottom: 0px;
+}
+
+.animation div:first-child {
+	animation: text-animation 8s infinite;
+}
+
+@keyframes text-animation {
+	0% {
+		margin-top: 0;
+	}
+
+	10% {
+		margin-top: 0;
+	}
+
+	20% {
+		margin-top: -5.9rem;
+	}
+
+	30% {
+		margin-top: -5.9rem;
+	}
+
+	40% {
+		margin-top: -11.45rem;
+	}
+
+	60% {
+		margin-top: -11.45rem;
+	}
+
+	70% {
+		margin-top: -5.9rem;
+	}
+
+	80% {
+		margin-top: -5.9rem;
+	}
+
+	90% {
+		margin-top: 0;
+	}
+
+	100% {
+		margin-top: 0;
+	}
+}
+
+
+
+
+
+.space-minmin {
+	margin-top: 8%;
+}
+
+.space-min {
+	margin-top: 15%;
+}
+
+.space-mid {
+	margin-top: 25%;
+}
+
+.space-b-minmin {
+	margin-bottom: 8%;
+}
+
+.space-b-min {
+	margin-bottom: 15%;
+}
+
+.space-b-mid{
+	margin-bottom: 25%;
+}
+
+.m-right {
+	margin-right: 10%;
+}
+
+.mx-right {
+	margin-right: 20%;
+}
+
+.m-left {
+	margin-left: 10%;
+}
+
+.mx-left {
+	margin-left: 20%;
+}
+
+.design-text h1 {
+	color: #333333;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.design-text p {
+	font-size: 25px;
+	color: grey;
+	font-weight: 500;
+}
+
+
+
+.styles-text h1 {
+	color: #333333;
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.styles-text p {
+	font-size: 25px;
+	color: grey;
+	font-weight: 500;
+}
+
+.btn-learnmore {
+	background-color: #EBEBEB;
+}
+
+.custom-shadow-button {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+
+.support-text h1 {
+	font-size: 50px;
+	font-weight: bold;
+}
+
+.support-text p {
+	font-size: 15px;
+	color: grey;
+	font-weight: 500;
+}
+
+.sized-text h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+
+
+.code-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.links {
+	margin-right: 20px;
+}
+
+.links a {
+	display: block;
+	margin-bottom: 10px;
+	text-decoration: none;
+	color: blue;
+	cursor: pointer;
+}
+
+.code-container {
+	display: flex;
+	align-items: center;
+}
+
+.code-display {
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #f7f6f6;
+	min-width: 300px;
+	min-height: 30px;
+	margin-right: 10px;
+}
+.code-display2 {
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #f7f6f6;
+	min-width: 300px;
+	min-height: 30px;
+	margin-right: 10px;
+}
+.code-display3 {
+	border: 1px solid #ccc;
+	padding: 10px;
+	background-color: #f7f6f6;
+	min-width: 300px;
+	min-height: 30px;
+	margin-right: 10px;
+}
+
+pre {
+	margin: 0;
+	font-size: 15px;
+}
+
+#copyButton {
+	padding: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+#copyButton i {
+	margin-right: 5px;
+}
+
+#copyButton2 {
+	padding: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+#copyButton2 i {
+	margin-right: 5px;
+}
+
+#copyButton3 {
+	padding: 10px;
+	font-size: 14px;
+	cursor: pointer;
+	display: flex;
+	align-items: center;
+	gap: 5px;
+}
+
+#copyButton3 i {
+	margin-right: 5px;
+}
+
+
+
+#copiedText {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	background-color: #98b998;
+	color: white;
+	border-radius: 5px;
+	opacity: 0;
+	transition: opacity 0.3s, transform 0.3s;
+	z-index: 1000;
+}
+
+#copiedText.show {
+	opacity: 1;
+	transform: translate(-50%, -60%);
+}
+
+#copiedText2 {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	background-color: #98b998;
+	color: white;
+	border-radius: 5px;
+	opacity: 0;
+	transition: opacity 0.3s, transform 0.3s;
+	z-index: 1000;
+}
+
+#copiedText2.show {
+	opacity: 1;
+	transform: translate(-50%, -60%);
+}
+
+#copiedText3 {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	padding: 10px;
+	background-color: #98b998;
+	color: white;
+	border-radius: 5px;
+	opacity: 0;
+	transition: opacity 0.3s, transform 0.3s;
+	z-index: 1000;
+}
+
+#copiedText3.show {
+	opacity: 1;
+	transform: translate(-50%, -60%);
+}
+
+.rotated-text {
+	margin-top: 15px;
+	display: inline-block;
+	transform: rotate(90deg);
+	transition: transform 0.5s ease;
+}
+
+.title-text {
+	color: #333333;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+
+.image-container {
+	position: relative;
+	width: 400px;
+	/* Örneğin */
+	height: 400px;
+	/* Örneğin */
+}
+
+.cross-rotate {
+	position: absolute;
+	width: 65%;
+	height: 65%;
+	object-fit: cover;
+	transition: transform 0.5s ease;
+}
+
+.left-img {
+	transform: rotate(-10deg) translateX(-100px) translateY(-10px);
+}
+
+.right-img {
+	transform: rotate(10deg) translateX(100px) translateY(-10px);
+}
+
+.height-bg-div {
+	width: 32%;
+}
+
+.with-bg-div {
+	width: 32%;
+}
+
+.height-bg-div,
+.size-bg-div,
+.with-bg-div {
+	display: flex;
+	flex-direction: column;
+	border: 1px dashed #ccc;
+	padding: 20px;
+	background-image: repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 25px),
+		repeating-linear-gradient(90deg, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) 1px, transparent 1px, transparent 25px);
+}
+
+.size-16 {
+	width: 4rem;
+	height: 4rem;
+}
+
+.size-20 {
+	width: 5rem;
+	height: 5rem;
+}
+
+.size-24 {
+	width: 6rem;
+	height: 6rem;
+}
+
+.size-32 {
+	width: 8rem;
+	height: 8rem;
+}
+
+.size-40 {
+	width: 10rem;
+	height: 10rem;
+}
+
+.table-container {
+	max-width: 1000px;
+	/* Maksimum genişlik ayarı */
+	margin: auto;
+	/* Ortala */
+	overflow-x: auto;
+	/* Yatay scroll */
+}
+
+.table-container table {
+	width: 500px;
+	border-collapse: collapse;
+}
+
+.table-container th,
+.table-container td {
+	border: none;
+	/* Çizgi kaldırma */
+	padding: 8px;
+	text-align: left;
+}
+
+.table-container th {
+	background-color: #f2f2f2;
+	font-weight: bold;
+}
+
+.divider {
+	height: 1px;
+	width: 60%;
+	background-color: rgba(0, 0, 0, 0.1);
+	/* Şeffaf siyah renk */
+	margin: 20px auto;
+	/* Çizgiyi ortalamak için ve boşluk eklemek için */
+}
