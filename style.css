@@ -5,6 +5,7 @@ body {
 	background-color: #fdfdfd;
 }
 
+/* ANIMATION NAVBAR LOGO TEXT START*/
 .animation-link {
 	font-family: Arial;
 	text-decoration: none;
@@ -28,7 +29,7 @@ body {
 	display: flex;
 	align-items: center;
 }
-
+/* ANIMATION NAVBAR LOGO TEXT END*/
 
 
 
@@ -103,7 +104,7 @@ body {
 
 
 
-
+/* CUSTOM MARGIN CLASS SECTION START */
 .space-minmin {
 	margin-top: 8%;
 }
@@ -132,17 +133,37 @@ body {
 	margin-right: 10%;
 }
 
+.mm-right {
+	margin-right: 15%;
+}
+
 .mx-right {
 	margin-right: 20%;
+}
+
+.mxx-right {
+	margin-right: 30%;
 }
 
 .m-left {
 	margin-left: 10%;
 }
 
+.mm-left {
+	margin-left: 15%;
+}
+
 .mx-left {
 	margin-left: 20%;
 }
+
+.mxx-left {
+	margin-left: 30%;
+}
+/* CUSTOM MARGIN CLASS SECTION END */
+
+
+
 
 .design-text h1 {
 	color: #333333;
@@ -197,6 +218,7 @@ body {
 
 
 
+/* CODE COPY SECTION START */
 .code-container {
 	display: flex;
 	flex-direction: column;
@@ -220,23 +242,7 @@ body {
 	align-items: center;
 }
 
-.code-display {
-	border: 1px solid #ccc;
-	padding: 10px;
-	background-color: #f7f6f6;
-	min-width: 300px;
-	min-height: 30px;
-	margin-right: 10px;
-}
-.code-display2 {
-	border: 1px solid #ccc;
-	padding: 10px;
-	background-color: #f7f6f6;
-	min-width: 300px;
-	min-height: 30px;
-	margin-right: 10px;
-}
-.code-display3 {
+.code-display, .code-display2, .code-display3 {
 	border: 1px solid #ccc;
 	padding: 10px;
 	background-color: #f7f6f6;
@@ -250,7 +256,7 @@ pre {
 	font-size: 15px;
 }
 
-#copyButton {
+#copyButton, #copyButton2, #copyButton3{
 	padding: 10px;
 	font-size: 14px;
 	cursor: pointer;
@@ -259,39 +265,11 @@ pre {
 	gap: 5px;
 }
 
-#copyButton i {
+#copyButton i, #copyButton2 i, #copyButton3 i {
 	margin-right: 5px;
 }
 
-#copyButton2 {
-	padding: 10px;
-	font-size: 14px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	gap: 5px;
-}
-
-#copyButton2 i {
-	margin-right: 5px;
-}
-
-#copyButton3 {
-	padding: 10px;
-	font-size: 14px;
-	cursor: pointer;
-	display: flex;
-	align-items: center;
-	gap: 5px;
-}
-
-#copyButton3 i {
-	margin-right: 5px;
-}
-
-
-
-#copiedText {
+#copiedText, #copiedText2, #copiedText3 {
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -305,48 +283,13 @@ pre {
 	z-index: 1000;
 }
 
-#copiedText.show {
+#copiedText.show, #copiedText2.show, #copiedText3.show {
 	opacity: 1;
 	transform: translate(-50%, -60%);
 }
+/* CODE COPY SECTION END */
 
-#copiedText2 {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	padding: 10px;
-	background-color: #98b998;
-	color: white;
-	border-radius: 5px;
-	opacity: 0;
-	transition: opacity 0.3s, transform 0.3s;
-	z-index: 1000;
-}
 
-#copiedText2.show {
-	opacity: 1;
-	transform: translate(-50%, -60%);
-}
-
-#copiedText3 {
-	position: fixed;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	padding: 10px;
-	background-color: #98b998;
-	color: white;
-	border-radius: 5px;
-	opacity: 0;
-	transition: opacity 0.3s, transform 0.3s;
-	z-index: 1000;
-}
-
-#copiedText3.show {
-	opacity: 1;
-	transform: translate(-50%, -60%);
-}
 
 .rotated-text {
 	margin-top: 15px;
@@ -365,9 +308,7 @@ pre {
 .image-container {
 	position: relative;
 	width: 400px;
-	/* Örneğin */
 	height: 400px;
-	/* Örneğin */
 }
 
 .cross-rotate {
@@ -432,11 +373,8 @@ pre {
 
 .table-container {
 	max-width: 1000px;
-	/* Maksimum genişlik ayarı */
 	margin: auto;
-	/* Ortala */
 	overflow-x: auto;
-	/* Yatay scroll */
 }
 
 .table-container table {
@@ -447,7 +385,6 @@ pre {
 .table-container th,
 .table-container td {
 	border: none;
-	/* Çizgi kaldırma */
 	padding: 8px;
 	text-align: left;
 }
@@ -461,7 +398,58 @@ pre {
 	height: 1px;
 	width: 60%;
 	background-color: rgba(0, 0, 0, 0.1);
-	/* Şeffaf siyah renk */
 	margin: 20px auto;
-	/* Çizgiyi ortalamak için ve boşluk eklemek için */
 }
+
+
+/* ABOUT SECTION START */
+.about-container{
+	width: 40%;
+	padding: 20px;
+	text-align: justify;
+}
+
+.about-text{
+	color: #2b2a2a;
+	font-size: 17px;
+	font-weight: 500;
+}
+
+.about-text h1{
+	color: #302f2f;
+	font-size: 28px;
+	font-weight: 700;
+}
+/* ABOUT SECTION END */
+
+
+
+
+/* WORK SECTION START */
+.project-text h1 {
+	color: #001122;
+	font-size: 70px;
+	font-weight: bold;
+}
+
+.project-text p {
+	font-size: 25px;
+	color: grey;
+	font-weight: 500;
+}
+
+.w-80{
+	width: 70rem;
+}
+.h-33{
+	height: 32rem;
+}
+
+.w-30{
+	width: 22.7rem;
+}
+.h-30{
+	height: 22.7rem;
+}
+
+/* WORK SECTION END */

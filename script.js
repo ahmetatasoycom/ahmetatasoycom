@@ -67,7 +67,16 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 
+document.addEventListener('DOMContentLoaded', function () {
+  const scrollButton2 = document.getElementById('scrollButton2');
 
+  scrollButton2.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    const bottom2Section = document.getElementById('bottom2');
+    bottom2Section.scrollIntoView({ behavior: 'smooth' });
+  });
+});
 
 
 
@@ -186,3 +195,4 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 });
+
