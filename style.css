@@ -242,7 +242,7 @@ body {
 	align-items: center;
 }
 
-.code-display, .code-display2, .code-display3 {
+.code-display, .code-display2, .code-display3, .code-display4, .code-display5, .code-display6, .code-display7, .code-display8 {
 	border: 1px solid #ccc;
 	padding: 10px;
 	background-color: #f7f6f6;
@@ -256,7 +256,7 @@ pre {
 	font-size: 15px;
 }
 
-#copyButton, #copyButton2, #copyButton3{
+#copyButton, #copyButton2, #copyButton3, #copyButton4, #copyButton5, #copyButton6, #copyButton7, #copyButton8{
 	padding: 10px;
 	font-size: 14px;
 	cursor: pointer;
@@ -265,11 +265,11 @@ pre {
 	gap: 5px;
 }
 
-#copyButton i, #copyButton2 i, #copyButton3 i {
+#copyButton i, #copyButton2 i, #copyButton3 i, #copyButton4 i, #copyButton5 i, #copyButton6 i, #copyButton7 i, #copyButton8 i{
 	margin-right: 5px;
 }
 
-#copiedText, #copiedText2, #copiedText3 {
+#copiedText, #copiedText2, #copiedText3, #copiedText4, #copiedText5, #copiedText6, #copiedText7, #copiedText8{
 	position: fixed;
 	top: 50%;
 	left: 50%;
@@ -283,7 +283,7 @@ pre {
 	z-index: 1000;
 }
 
-#copiedText.show, #copiedText2.show, #copiedText3.show {
+#copiedText.show, #copiedText2.show, #copiedText3.show, #copiedText4.show, #copiedText5.show, #copiedText6.show, #copiedText7.show, #copiedText8.show {
 	opacity: 1;
 	transform: translate(-50%, -60%);
 }
@@ -371,25 +371,32 @@ pre {
 	height: 10rem;
 }
 
-.table-container {
+.table-container, .table-container-larch {
 	max-width: 1000px;
 	margin: auto;
 	overflow-x: auto;
 }
 
-.table-container table {
+.table-container table{
 	width: 500px;
 	border-collapse: collapse;
 }
 
+.table-container-larch table {
+	width: 900px;
+	border-collapse: collapse;
+}
+
 .table-container th,
-.table-container td {
+.table-container td,
+.table-container-larch th,
+.table-container-larch td {
 	border: none;
 	padding: 8px;
 	text-align: left;
 }
 
-.table-container th {
+.table-container th, .table-container-larch th {
 	background-color: #f2f2f2;
 	font-weight: bold;
 }
@@ -453,3 +460,33 @@ pre {
 }
 
 /* WORK SECTION END */
+
+
+/* COLOR SECTION START */
+
+.text-sky-400{
+	color: rgb(56 189 248);
+}
+
+/* COLOR SECTION END */
+
+/* SHADOW SECTION START */
+
+.drop-shadow-md{
+	filter: drop-shadow(0 4px 3px rgb(0 0 0 / 0.07)) drop-shadow(0 2px 2px rgb(0 0 0 / 0.06));
+}
+
+.drop-shadow-lg{
+	filter: drop-shadow(0 10px 8px rgb(0 0 0 / 0.04)) drop-shadow(0 4px 3px rgb(0 0 0 / 0.1));
+}
+
+.drop-shadow-xl{
+	filter: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+}
+
+.drop-shadow-2xl{
+	filter: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+}
+
+/* SHADOW SECTION END */
+

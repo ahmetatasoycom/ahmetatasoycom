@@ -196,3 +196,289 @@ document.addEventListener('DOMContentLoaded', function () {
 
 });
 
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const codeDisplay4 = document.getElementById('code4');
+  const copyButton4 = document.getElementById('copyButton4');
+  const copiedText4 = document.getElementById('copiedText4');
+
+  const codes = {
+    linkc1: `<div class="text-current">text-current</div>`,
+    linkc2: `<div class="text-black">text-black</div>`,
+    linkc3: `<div class="text-orange-500">text-orange-500</div>`,
+    linkc4: `<div class="text-red-900">text-red-900</div>`,
+    linkc5: `<div class="text-sky-400">text-sky-400</div>`,
+  };
+
+  document.getElementById('linkc1').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay4.textContent = codes.linkc1;
+  });
+
+  document.getElementById('linkc2').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay4.textContent = codes.linkc2;
+  });
+
+  document.getElementById('linkc3').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay4.textContent = codes.linkc3;
+  });
+  document.getElementById('linkc4').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay4.textContent = codes.linkc4;
+  });
+
+  document.getElementById('linkc5').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay4.textContent = codes.linkc5;
+  });
+
+  copyButton4.addEventListener('click', function () {
+    const code = codeDisplay4.textContent;
+    navigator.clipboard.writeText(code).then(function () {
+      copiedText4.classList.add('show');
+      setTimeout(function () {
+        copiedText4.classList.remove('show');
+      }, 2000);
+    }, function () {
+      alert('Kopyalama işlemi başarısız oldu.');
+    });
+  });
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const codeDisplay5 = document.getElementById('code5');
+  const copyButton5 = document.getElementById('copyButton5');
+  const copiedText5 = document.getElementById('copiedText5');
+
+  const codes = {
+    linkbg1: `<div class="bg-red-700">bg-red-700</div>`,
+    linkbg2: `<div class="bg-orange-500">bg-orange-500</div>`,
+    linkbg3: `<div class="bg-blue-500">bg-blue-500</div>`,
+    linkbg4: `<div class="bg-pink-800">bg-pink-800</div>`,
+  };
+
+  document.getElementById('linkbg1').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay5.textContent = codes.linkbg1;
+  });
+
+  document.getElementById('linkbg2').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay5.textContent = codes.linkbg2;
+  });
+
+  document.getElementById('linkbg3').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay5.textContent = codes.linkbg3;
+  });
+  document.getElementById('linkbg4').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay5.textContent = codes.linkbg4;
+  });
+
+  copyButton5.addEventListener('click', function () {
+    const code = codeDisplay5.textContent;
+    navigator.clipboard.writeText(code).then(function () {
+      copiedText5.classList.add('show');
+      setTimeout(function () {
+        copiedText5.classList.remove('show');
+      }, 2000);
+    }, function () {
+      alert('Kopyalama işlemi başarısız oldu.');
+    });
+  });
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const codeDisplay6 = document.getElementById('code6');
+  const copyButton6 = document.getElementById('copyButton6');
+  const copiedText6 = document.getElementById('copiedText6');
+
+  const codes = {
+    linkds1: `<div class="drop-shadow-md">drop-shadow-md</div>`,
+    linkds2: `<div class="drop-shadow-lg">drop-shadow-lg</div>`,
+    linkds3: `<div class="drop-shadow-xl">drop-shadow-xl</div>`,
+    linkds4: `<div class="drop-shadow-2xl">drop-shadow-2xl</div>`,
+  };
+
+  document.getElementById('linkds1').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay6.textContent = codes.linkds1;
+  });
+
+  document.getElementById('linkds2').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay6.textContent = codes.linkds2;
+  });
+
+  document.getElementById('linkds3').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay6.textContent = codes.linkds3;
+  });
+  document.getElementById('linkds4').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay6.textContent = codes.linkds4;
+  });
+
+  copyButton6.addEventListener('click', function () {
+    const code = codeDisplay6.textContent;
+    navigator.clipboard.writeText(code).then(function () {
+      copiedText6.classList.add('show');
+      setTimeout(function () {
+        copiedText6.classList.remove('show');
+      }, 2000);
+    }, function () {
+      alert('Kopyalama işlemi başarısız oldu.');
+    });
+  });
+
+
+});
+
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const codeDisplay7 = document.getElementById('code7');
+  const copyButton7 = document.getElementById('copyButton7');
+  const copiedText7 = document.getElementById('copiedText7');
+
+  const codes = {
+    linkfn1: `<p class="font-sans ...">The quick brown fox ...</p>`,
+    linkfn2: `<p class="font-serif ...">The quick brown fox ...</p>`,
+    linkfn3: `<p class="font-mono ...">The quick brown fox ...</p>`,
+  };
+
+  document.getElementById('linkfn1').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay7.textContent = codes.linkfn1;
+  });
+
+  document.getElementById('linkfn2').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay7.textContent = codes.linkfn2;
+  });
+
+  document.getElementById('linkfn3').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay7.textContent = codes.linkfn3;
+  });
+
+  copyButton7.addEventListener('click', function () {
+    const code = codeDisplay7.textContent;
+    navigator.clipboard.writeText(code).then(function () {
+      copiedText7.classList.add('show');
+      setTimeout(function () {
+        copiedText7.classList.remove('show');
+      }, 2000);
+    }, function () {
+      alert('Kopyalama işlemi başarısız oldu.');
+    });
+  });
+
+
+});
+
+
+
+
+
+
+
+
+
+
+document.addEventListener('DOMContentLoaded', function () {
+  const codeDisplay8 = document.getElementById('code8');
+  const copyButton8 = document.getElementById('copyButton8');
+  const copiedText8 = document.getElementById('copiedText8');
+
+  const codes = {
+    linkfs1: `<p class="text-sm ...">The quick brown fox ...</p>`,
+    linkfs2: `<p class="text-base ...">The quick brown fox ...</p>`,
+    linkfs3: `<p class="text-lg ...">The quick brown fox ...</p>`,
+    linkfs4: `<p class="text-xl ...">The quick brown fox ...</p>`,
+  };
+
+  document.getElementById('linkfs1').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay8 .textContent = codes.linkfs1;
+  });
+
+  document.getElementById('linkfs2').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay8.textContent = codes.linkfs2;
+  });
+
+  document.getElementById('linkfs3').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay8.textContent = codes.linkfs3;
+  });
+
+  document.getElementById('linkfs4').addEventListener('click', function (e) {
+    e.preventDefault();
+    codeDisplay8.textContent = codes.linkfs4;
+  });
+
+  copyButton8.addEventListener('click', function () {
+    const code = codeDisplay8.textContent;
+    navigator.clipboard.writeText(code).then(function () {
+      copiedText8.classList.add('show');
+      setTimeout(function () {
+        copiedText8.classList.remove('show');
+      }, 2000);
+    }, function () {
+      alert('Kopyalama işlemi başarısız oldu.');
+    });
+  });
+
+
+});
