@@ -8,7 +8,7 @@
 
 ###
 
-[![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap,nodejs,flutter,dart,firebase)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=js,html,css,bootstrap,nodejs,reactjs,flutter,dart,firebase)](https://skillicons.dev)
 
 ###
 
