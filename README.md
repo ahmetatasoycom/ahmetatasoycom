@@ -3,7 +3,7 @@
 ###
 
  <h3 align="center">
-  ### .init
+  ### .init<br>
 Hi, I'm Ahmet Atasoy. I've been writing code for the I was 13 years old.<br>
  </h1>
 
