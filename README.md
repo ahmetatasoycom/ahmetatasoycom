@@ -42,7 +42,6 @@
 <div align="center">
   <img height="300" src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExYm1yMzZ3ajR3NjN4ZjI4aDc1d3VsbjVlZjhydDB2Y3BrYWFnN2NjZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/5u9QXgZCNYY4AvFQpY/giphy.gif"  />
 </div>
-###
 
 <div align="center">
   <img src="https://github-profile-trophy.vercel.app?username=ahmetatasoycom&theme=dracula&column=-1&row=1&margin-w=8&margin-h=8&no-bg=false&no-frame=false&order=4" height="150" alt="trophy graph"  />
