@@ -2,14 +2,13 @@
 
 ###
 
- <h3 align="center">!!!</h1>
-
-### .init
+ <h3 align="center">
+  ### .init
 Hi, I'm Ahmet Atasoy. I've been writing code for the I was 13 years old.<br>
+ </h1>
 
-### .text
-I rarely write on my Medium is [@atasoycom](https://medium.com/@atasoycom).<br>
-My Twitter is [@ahmetatasoycom](https://twitter.com/ahmetatasoycom).
+
+
 
 
 <p align="center">
