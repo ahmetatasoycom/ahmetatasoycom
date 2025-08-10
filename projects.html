@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Projects - Ahmet</title>
+    <link rel="stylesheet" href="assets/css/output.css" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body class="bg-neutral-950 text-white">
+    <nav
+  class="flex items-center justify-between bg-neutral-950 rounded-xl mx-auto max-w-4xl mt-4 p-4"
+>
+  <!-- Logo -->
+  <div>
+    <a href="index.html" class="block transform transition-transform hover:scale-110" title="Ana sayfaya dön">
+      <img src="assets/img/logo.png" alt="Logo" class="h-12 w-auto" />
+    </a>
+  </div>
+  <!-- Navbar links -->
+  <div class="flex space-x-8">
+    <a
+      href="index.html"
+      class="nav-btn relative text-gray-400 hover:text-white transition-colors font-bold"
+      data-tab="home"
+    >
+      Home
+      <span
+        class="nav-underline absolute left-0 -bottom-1 w-full h-0.5 bg-white scale-x-0 transition-transform"
+      ></span>
+    </a>
+    <a
+      href="skills.html"
+      class="nav-btn relative text-gray-400 hover:text-white transition-colors font-bold"
+      data-tab="skills"
+    >
+      Skills
+      <span
+        class="nav-underline absolute left-0 -bottom-1 w-full h-0.5 bg-white scale-x-0 transition-transform"
+      ></span>
+    </a>
+    <a
+      href="projects.html"
+      class="nav-btn relative text-gray-400 hover:text-white transition-colors font-bold"
+      data-tab="projects"
+    >
+      Projects
+      <span
+        class="nav-underline absolute left-0 -bottom-1 w-full h-0.5 bg-white scale-x-0 transition-transform"
+      ></span>
+    </a>
+    <a
+      href="blog.html"
+      class="nav-btn relative text-gray-400 hover:text-white transition-colors font-bold"
+      data-tab="blog"
+    >
+      Blog
+      <span
+        class="nav-underline absolute left-0 -bottom-1 w-full h-0.5 bg-white scale-x-0 transition-transform"
+      ></span>
+    </a>
+    <a
+      href="about.html"
+      class="nav-btn relative text-gray-400 hover:text-white transition-colors font-bold"
+      data-tab="about"
+    >
+      About
+      <span
+        class="nav-underline absolute left-0 -bottom-1 w-full h-0.5 bg-white scale-x-0 transition-transform"
+      ></span>
+    </a>
+  </div>
+</nav>
+
+
+    <main
+      class="flex flex-col items-center justify-center h-auto text-center px-4 mt-52 mb-20"
+    >
+      <h1 class="text-5xl md:text-7xl font-extrabold text-white mb-4">
+        Projects
+      </h1>
+      <p class="mt-4 max-w-2xl text-gray-400 text-lg">
+        Occasionally I upload some projects to Github, here are some.
+      </p>
+    </main>
+
+    <div class="max-w-6xl w-full mx-auto px-4 mb-16 mt-52">
+      <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-8 text-center">
+        <div
+          class="bg-neutral-900 border border-neutral-800 rounded-xl p-4 flex flex-col items-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="text-white mb-2"
+          >
+            <path d="M19 21v-2a4 4 0 0 0-4-4H9a4 4 0 0 0-4 4v2" />
+            <circle cx="12" cy="7" r="4" />
+          </svg>
+          <span class="text-xl font-bold text-white" id="github-followers"
+            >...</span
+          >
+          <span class="text-gray-400 text-sm mt-1">Followers</span>
+        </div>
+        <div
+          class="bg-neutral-900 border border-neutral-800 rounded-xl p-4 flex flex-col items-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="text-white mb-2"
+          >
+            <path
+              d="M12 2l3.09 6.26L22 9.27l-5 4.87L18.18 22 12 18.27 5.82 22 7.82 14.14 3 9.27l6.91-1.01L12 2z"
+            />
+          </svg>
+          <span class="text-xl font-bold text-white" id="github-stars"
+            >...</span
+          >
+          <span class="text-gray-400 text-sm mt-1">Stars</span>
+        </div>
+        <div
+          class="bg-neutral-900 border border-neutral-800 rounded-xl p-4 flex flex-col items-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="text-white mb-2"
+          >
+            <path d="M22 12h-4l-3 9L9 3l-3 9H2" />
+          </svg>
+          <span class="text-xl font-bold text-white" id="github-repos"
+            >...</span
+          >
+          <span class="text-gray-400 text-sm mt-1">Repositories</span>
+        </div>
+        <div
+          class="bg-neutral-900 border border-neutral-800 rounded-xl p-4 flex flex-col items-center"
+        >
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            viewBox="0 0 24 24"
+            fill="none"
+            stroke="currentColor"
+            stroke-width="2"
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            class="icon icon-tabler icons-tabler-outline icon-tabler-git-fork"
+          >
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M12 18m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+            <path d="M7 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+            <path d="M17 6m-2 0a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+            <path d="M7 8v2a2 2 0 0 0 2 2h6a2 2 0 0 0 2 -2v-2" />
+            <path d="M12 12l0 4" />
+          </svg>
+          <span class="text-xl font-bold text-white" id="github-forks"
+            >...</span
+          >
+          <span class="text-gray-400 text-sm mt-1">Forks</span>
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="max-w-6xl w-full mx-auto px-4 space-y-8 mb-20 md:grid md:grid-cols-2 md:gap-8 lg:grid-cols-3 lg:gap-12 md:space-y-0"
+    >
+      <a
+        href="https://github.com/ahmetatasoycom/e-commerce-website"
+        target="_blank"
+        class="block col-span-2"
+      >
+        <div
+          class="group bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl md:flex"
+        >
+          <img
+            src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMVFhUXGBcWGBgXGBkdGhoZGBcXFxcdFxUaHSggGxolGxgYIjEhJSorLi4uGiAzODMtNygtLisBCgoKDg0OGxAQGy0mICUuLS0tLS0tLi0tLS8tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLS0tLf/AABEIAKgBLAMBIgACEQEDEQH/xAAcAAABBQEBAQAAAAAAAAAAAAAEAAIDBQYBBwj/xABGEAABAwIDBAYGBwYGAQUBAAABAgMRACEEEjEFQVFxBhMiYYGRMlKhscHRM0JTcpKy8AcUFiMk0hU0YqLh8YJDg5PC06P/xAAaAQADAQEBAQAAAAAAAAAAAAAAAQIDBAUG/8QAMBEAAgECBAMFCAMBAAAAAAAAAAECAxEEEiExFDJRE0FScZEiM2GBobHR8AUjQuH/2gAMAwEAAhEDEQA/AN4jQcq6aYnQcqcK5z6I5Ncp1NNA0crs0jXKBnCaXdSmud9AxGuGluqbBYNTq8qYsJJOgG7xo3E5KKuyGaR76tT0eWJPWIA5GhhsqRIfbMpC9/okwDymnlZjxdHxAQ9tcqyb2GpRIDqCUxmsd4keypR0bc9dPkaMrHxdHxFPNNNXX8NufaJ8jXD0ac+0T5GjIw4uj4imroPyq2c6PrGrqBOljUY2ETo837aMjHxlHxFXxrgPdVt/gSvtm/bvj/il/D6vtW/I0ZGPjKPiKk/r/ummrpPRtw36xBB7jS/hdz7RPkaWRjWMoeL7lKJ7vCl4Vd/ww5ucR5Gufwu59onyNGRhxlDxfcpKVW/8OLnL1qJ4XmuK6OKGrzY8+RoySHxlDxFOTHOuKq8R0aWdHUHfYGo8X0ccQhSsyVZQSRcGBwNGRjWMoN2zFP8Ar9eNIGuJNhS86g6hGKaDvrubdTVmx7gTQUgR5Uk/rl7vbTP0P17aaDXNBWNzpUbaEqCe741IieFDgj/mpWlZjVJkyRMOG7Son9fD9b6mIqB8CdN3GtDFmiBt4VeYfZ7IaStwgSASVKyi4mNQKpALeFavBJBabBE9hP5RW0NTw8ZOUYrK7AJw2E9ZH/yeHrU9rAYZRhOVR1gLJPlNWIbHAeQpJbAMgAHSYFaWR5/bVPE/UD/wdn1T+JXzrh2Mz6p/Er50fSosg7ep4n6gH+Cs+qfxK+dI7FZ9T/cr50fSosg7er4n6lediMeofxK+dPwWCQ2tWQRIvcnf30bUKPTPKiyB1aklZyfqT0CramHBUkutApVkUFKSIUAlRF+AWnzo6hlYBo6tNmbmUp1knhxJPiaZkSYd1CxmQpKkn6ySCDFtRrcRUilAXNNbbCRCQAOAEDyFR/vaM2TOnNplm9hJtyoAd+8I9ZPmKX7yj10+Yrj2JQkwpQB1vXGMWhZhKwo62NAEqFg3BBHdTqgOKRmyZhm4Te+lvEedJ/FIR6agnfc7qAJ6VRsPJWJSQRxHn8aiRjmyYC0kzEA76ACaVQv4lCIzKAnSTrXWcQlQzJUCBvBtQA9SgASdBXQaiYxKF+ioKiNDx0phxzYntpsY130ASuOgFIOqjA8ppi8QAoJAJJMGBYWmST3e+uoyOAKASrgbHeDY8wPKpMomYE6TvjnQCIWcWFqKUgmNTumYj3+VSYlMoUDoUkeyuobAmABOsDXn50zGEhtZGuVUc4MUDW5V4fYuGUIyXGvaX86n/wAAw/2f+9f91ZrBKdYK3krWsmC6HEgJMerA77QTE331t6yg090byr1VtN+rKl7YeFSCpSIAuTnX/dTMPsjCOJlCcwuPTX5a1Qftl2k7h9mqcZWUL6xsSI0JuLjfVD+w7br2JVi0uPLcShLBAXl7KlF4GMqU2KUINxwG6Ttlhl21Mniq+Ze07eb/ACbPauycBh2lOuoyoTH13CSTZKUpCpUokwANSaE6M4PB4xkPJwjzSCTl65UFY0zJyOqlB3HfqJEGrrpLsFrGslh4EpkKj/Um6Z4gGDG+L2msz0f2q9h3G8M/AQGkqQU3KkqkIGSLERBhRuPRvIxkoR3RvHEYiW05erNCejGEEfy77v5jl9Tbtc6c30Zwqbhr/ev+6qHCrxS8YgqcSporypCk5XGwA46B2TlVmDeUmAQBv1rbU4KMtUgniK8dHOXq/wAnnu1sKGnltpNhETrcA3Piaq8Sb79PnV30lH9U5yR+UVR4sCdQLfE1k9z6ChJypRb3sjSRatXgPom/uJ/KKyp08K1eA+ib+4n8orSmeNjeVE9KlXm/S7pji8O+8hstw2RAUiTCkpIvPFQ8jVyko7nLQw8q0ssTU9JulCcGtlCm1L61WWUkDL2kpkzr6VX9fP8AtzbL+JbD7qiVJXIIkBCbEQPq3y34xXr/AECxzj2CaW6oqX2gVHUwogT3xUwndnTisIqVKMk1fZ+fcaGq51bgUYQ1E6l1YO+JTkIGo31Y0IXUyZVxt2t19ZjdVuxwJN7EZfdsAlqI+0V/+eldwTiys5wgWtlUVb98pHdTy82PrG44q0ruGUkqJSZEd/HvpgEqNqHLh40QvQ0NSYI71pp3WHjQrjkE9tAved0JzHfrF+VRnFAAnrGrAH0hor0bzadxpXKsg7rDTVOnjQyH50W2eRm+h0PGacUr4p8jRcEkS9crjS65XGoUhU3iORmpAKCmkh6XTxqPE4spsNakFVa1SSeNZVZuK0KpQUpakoxznrewfKgtr9J0YYJLq7qMJSEypR7kgSalNedbR24GtoOuLbU6UlLKInsAiTEA3UZgb4rCLqSeWO50VOypxcp2SPQNmdMGXl9WCpKzolxCkFQ4oCwJ99O270rawqQXVQT6KQJWrkkbu82rBdL9tKW43h0MSHEJcaUR2yo5YLZzDKRm0IMgK0ANU2HwTuMcWVODOG0HOskBKbCAoXBsq/dxq3KorJvciMaUnLKnp3dfI9O2V0uS8Ugh1pS/QDreXNYnsqukmATAMxVw9ilgSFaX09/zryfam0cfhcIxmSnElDgLipKiIdBbHW2kx9Y8L8T6mkyOYobkv9XHaN+W3W6CNm4tSlFKjeJ3bom8DjRmJTKFA70keyq/ZLZClWjx5aTutVjiD2Vcj7q2pNuOphWSU9CjwWwJILjvWIsQnKE6aZiDfyFX5ofCTAvI5j5UQauMUtjOTbZXbe2Y1imVsOhCgqLLSFAKBkHKd4NDdFujTOCQtLaWwVmVKQ2lEwISCBrF/M1aKcEmVgeKefDhTwk+sfZ8qtT0ykOCvmH1n9s9GMPiGmm862yzk6pxtSesTkiBmUFBQ0kEHzrQGhkuTooH/wAk+H1f1FS7d5SBNi7CRh0wXHHlZs+d4pKgcpTbIlKRYqFhvNWtcSO+a7TSsJu5hOkv+aXyT+UVSYqJ1i3d31c9Jz/UuckfkFUGLWQbcPnXNLmZ9Th1/RDyRrCLVqcB9E39xP5RWZOlabAfRN/cT+UVVLc8bGP2UT14r+1xakYp0BMhbbRnfM5fcNa9qryH9sSXRiUdWw44FtIBUhtSgClxU3CTeCK1le2hzYfJmtNtL4GG2h1gwyUkBYzW9GAcuUzIMiva/wBlqCNmsgkE9vQQPTO6vHNsutB1pIGoBUrNuzKtOk6V7b0BwS2cE2hwQqVKiQbKUVJMgncRWdOTb1OvGUqUIOUb3b7/AIb26+ZoqpMSl3OqHkgSSBmIgcIynSrugHFnOR2e7+csH8ITa01q1c4adTI/+XI9lhzMrM4FDKLAzBJN5gcCKNR6Z5UJmXOWEzw69yY5ZKmwqu1BjNlEgKKo8SATzihIJyzO4UvQ0NRK9DQ1DMzCdIGsOMU8tbTxWFJUClYgrOEUEEIyEAnIltOaSpRiCmxDSWMw/lYpKi4DJyDtlTKpRlaObPlbVl9EJC7IKSBv3XlgkDJG6VGdN451xD6yY7Go+tPOBSHZmFY/c2lhxtt5Rb6pwLz9lRUEdYnMEEuZQWeyJvkSAMgi8d6XwF/ybomQXANHEoMHLCoCsyssxBAk2q8SX5k5IjS9jCZvGk5/ZRSCYE6740nuoASFSAeIB867SpUAI1U1bVX4lEKPnWFdaJnRh3q0ZXpB0tbw6+rCCtYuRMAczxrG4l9hG0nP3lCC24W1ozgFIcCZ32mFGJ4UnMI5jMS8tKSUhSpI0AEhIk74AtrRnSbZYfQ0oIzLBYJHG6QRbumuNS11PQcNDTs41DTS1Z0KEFYS3BIAE6Du41huju0IcuhSkrSttaEHtZCsqBQq10z3VvtmbNjDlGSBkUNItBEnvoLo70dw60pciVpSpKVAkAXykgCNY9tCu9CnJJtmY6QvoQ3+5Yc4hanClZDpUVpbQc4bTnuSpQIi5Enur0DofjS7hklQIglIneBp5Ax4Vh07MWvarTfaHVKSc0qClDJmU6SoXGYQItfur1IMZISPRAgd2trbgIA32vNaxg2s3Q56k0nl6heB1PKicQOwq8WN+Fu+hsBqeVP2q8UMOrTEpbWoTpISSJ7q7KXKcNXmFhmTlHbVoPUvEa9nf8aJqg6IdJmcYyhSVBLkdpsm4IscvrJtMjcRMVfmtDNgxwys09auJnLDca6ehMbtZ76lQ2R9YnuOX4AUzH4oNNrcNwkEwNTwA7ybV5h0h/aHjE7RZYw7OdtOXrW0DMp3PE5VfVyg2OmaZsKAtc9WULax30Jh2pmH1L/+K15+qgcvCq/pfs/EYjD9Th1htS1oC1K0DUy4IBBMpkQCJmJAk1n2tipwP9OyS21ZY6s5CskDOp3KBKyoHSwASE5QIqZyUVdlU4ObsjdITAuSe8x8AKdQWxi4WUl0gqNwR6p9GTxiJ+OpNpp3Jas7GC6Tn+pc/wDD8oqhxUg6jSr/AKTf5pzkj8oqixKrjl38TXNLmZ9Th/cQ8ka46VpMD9Gj7qfcKzyhV6ytQZRlTmOVNpjdxqqD1Z4eKfsoLpUIX3fsgf8AzE9+6pmFqI7ScpnSQbcxXQcJ3qUzOUTxgT51JSpUAKhVYJJc6y2b7on8UT7aKpUADHBjPn38hpMxMTFNZZAdUreUxoOM667zRdQo9M8qBolXoaGoo1H1QpMRUP7JSpal5rqieyk6CLSKa3sdIUlWY9kgjspGnEgVc9UKXVCpym/E1LWuQ0ql6gd9LqB307GOhFUbb4UYE0V1QqJrBpSSZPjFvZRYatZ3GqUBUbyAod+6iThh30hhx30ON1ZgnZ3RkNkbPLDQZykqAJMcdVX7zvoEMFt5rvLc9wSpVbpzBpJJuCRBIiSL2nxoUbEazBRzEjibe79TXHPDSex2xxUe8btD6NYGpsfIeVorMdGsMWVuJJ7KySkcCICvAyn28a2isGkiNB3UMNjN29K2l+6OG/4CqlRm5qSM6daMYOLIThELcQ6UglKSnS+oOvcaleb3kmxtEgR3jfRIwKO83B13i4p5wyb631vwrpUfZsYOSzXB8AbnlU20Gc7TiJjMhSZ4SkiaeywE6U5/0Vcj7qIRaVmKclKV0eVH9kay4lSMbDYg9tkFdtYKVJHs869H2BshOEYSwha1hOY5nDKiVEqMwABc6AAURh3rAQZ5p+dEA+FWSzMdJ8JjX3A2yhsNJyqzuOHKVC4KmkDMvKYITmSJEmbQZ0Z6OJwvWLKy6+6QXXVACY9FKUiyUCTAvrqatVOwTc23Sj/unJfG8gcyPgaAJazvSfZa3FJWkZgExA1BknMRvibDcb3tGhJqBD3M8yj4GplHMrFU5uDzID6OBfUDPNiUpChBCUnKJ8ieRFWlcSZrtNKysTJ3bZguk5/qnOSPyiqDGE5tN3HnV90oH9U5yT+QVQYuxGunzrmlzM+qw3uIeSNuoWq9w5IZSUiSECBMScthO6qU6Ve4P6NH3U+4UYfdnz+J5UZDbvT4YdZZ6nM+CAUFwBIBSFXWEntX9EA2vNXfRjpMxjUFTRIUmM6FapmY5gwYPdXiPS1Dn7wtbgUFuLdchQIOTrHEIsd0JMd0Vrf2Rsq/ec6QoILCwswcucOoCROmYIgx3njXSjkSsrGy6Y7YxSHGMLgkAvvhxXWKEobS2UAlY3CVi/AEAFRFUG0f2q4bCYhOFdK3+rBTiMQhIAS6JCkhoC8EQYJjTtEGvR4r5f27gAvbKmXEKheOWXEkGerXilmY1CS0UqneCDoauKT3EfTeExKXEIcQrMhaUrSRvSoApPiDXcU+G0KcV6KEqUeSQSfYKpOgAUNmYIKBBGHZBB1EISII8KK6VpUcFiEoSpSlNLQAkSSVApsPGok7IpK7M1sT9ogexHVKYKG1qShpWYFUqt/MToLxoTrW1R6Z5V4R0SbJdZyhSj1jakgXMJWknnCZPt3V7un0zyrGjOUr3N60FHYmoBCnesUCCEQIV/q7U24Rljxo+uVucwIhhcEda5zKW7f7Y9lEMoIF1FXeQB4WA/Rp9KgZxIjfPOPhVekvdeQR/JyiDvzSZ8I7qsqCTtVgyQ6i2vaFudACTh3PtnNN6Wu7/R4UU0ggQVFR4mJ9gAqFnHNLOVK0k6wDfyomgBqRG8nnHwoOXet0HV8ZVm8oiPGjqC/xVjTrUTMRN5tu8R5igDqWFz9K5p6rcaa+jU7LZEysqniEiOUAe3hTmnEqAUkggiQRoR3U+gBqRG8nnHwqtcOI/eRH0GW/HNJ9kRVmpQAJOgvQatqsDV1G/eN2WfzJ86adhNHW2Vz9K5yKW438EzUzLKgSS4pXcQkAcoAPnXcO+lacyFBSbiRcWMG/MVLSGNSO8ny+FNxPoKj1TpHDvtUlMe9E8j7qARBhFqgApVzJT8DNEmo8ORlFSTQN7ganHMxGRwCYmWoiDeDeKJaWTqkjmR8DT5pUrBc4swCTp+t9As4xtWi0G250neR7xFWFKgBrawRYyKdSpUxGB6UH+qc5I8eyKoMZrwt8T31oOk/+aXyT+UVQYsmd2m/ma5ZczPq8N7iHkjcqq9wf0aPup9wqhVV7hPo0fdT7qMPuz5/E7IE2hsfDYghT7DThTYFaUqMcJO7uorA4FplORptDaZJhCQkSdTA3njUCHkHenST2kcjMd9qMajcqR4fCulM5WdUYqBnBtJWt1LaEuORnWAApWUBIzKFzAAHhUmIUAmSYFtSB7Tah23UHemNPSQbjlwt50XC2gbTVKj9CkjTWagxTyUxmIGsSUjhOvnbhTYIDwHR/CMqC2mGkKGhSAIkR2eFrWo9HpnlUaFIMSRugSkzOmnG3nUiPTPKkklsO7e5NQLjSCVHI4SFRYqE2BlNxbtajh3UdQZcHa7TllRZJtabQm4770ySXCIAEBKk3PpEk+ZJtU9QYa95WfvCPYQKnoA4DXaanx361DiWiSkjdfxtHsnzoAnmuZxxoTG4NK1SWwq0SUtniYlV6TeDbkDqE6AZsqOA4X3RQOwYDXaY22EiEgAcAIHkKHfaczhaVSNCgmBvuDGvcfOgQSIFrADdwpFQ40HjMIlSpLYVbels8bSq9OGCaPZLCY1ulETAGmugA8KB2CwaVNbbCRCQAOAEDyFAY3DuqebUk9gRvgC5zyN8pgDWI3a0m7AixzCuBQ40Fi8GlSpLYUeJS2faq9OTgm5ILCb2JKUQecXvyphYMBqPE+gr7p91ObbCRCQABuAgeVR41wJbWo6BKieQBJoEgHZ57NFVR9HulGGxDnUNZs/VqchSY7KVISTIJ3rT+hWgcEA8qmxW7IVuAa1IhCVogi0+7lVXiVWMzff8AOrLZi5RPeamMtbG06WWFxHZrXq8N5+rpvqdloISEpEAc+e+mqSozeL2iJjxEVEG1+sv/APn/AG1oYMLpVEwggXUTzy28gKloEYHpQf6pzkn8gqhxSr7tO/vq96UD+qc5I/KKz2LEq1i1csuZn1mGX9EPJG9UKvMH9Gj7qfcKzOLfiw13/wDFaTAfQtxrkT+UUYfdngYlWimPabbvlCbWMAWOsGKlAr5/xCcZgNoF7EJcZW6o5nG1qDbutwQrKuJnKuSN4r2Xo70gS+lKVEB2N3orjUoP/wBdRfWJrVVVfK9GYSotRzLVD+k/SDD4NvM/Kp9FtKQpassEkJ4C1zvIGpAJuCeStCFFtTecZsi0gKE+sASAdLT3a1BjdhMu4hnEuJzLYSsNz6KSsoJVG9QyCDu5wRm3nnsQtD2dSCkktIQlJT9b0lHUxGuUXtxqpzy7Izirm2imrbSdQDzANC7IxanGgpQAVKkmNJSopkeVEvqhKiNQCfZVJ3VxNWIWsS0VFCVIKhuESIt7KkR6Z5V8+/s96YYx3H4ZDmJUordhQKW8q0kHMDCAQd8zu3Wn6CR6Z5VcrdxFNtp3JqEU4O1/MIhUWGlha4POe+i6COJEqAeblKsp07JgHKrtelBB3a1JdiXDuDTOVHvEe4CiKjZmLqCpuCBAjzNSUCGp+dBbQ2q2yQFTJE2A0mOPPyo1J7wdagxWBbcKStIUUmRrY+FA1a+o3E4opIACIImVLy+yDbvpJecMHq0wf9fu7N6nW3O8jdY0ktwZk+JMeVACZUojtJynhM+2qt7pLhkYn91W4EO5AvtWSQTAAWbFW+Nat6AxuxMM8rM7h2XFW7S20KPZum5E2m1AiTE4spUAkIMgG7gSbzoIvTg879kN/wBcd3dz9nhMpqd5G6xikGrzKuUmPKgZ1oki4g7xM+2ulQrtKKBAmIxhSoiERxLgB3/ViupfdIB6tN+Dnl9W9TraneocjSS1BmVcpMeVAzrZMXEHhM+2m4pMoUOKT7uFS1FifQV90+6gFuZ3ZOzin0HUpJAunDoSYN9YuNLVdIbWlBC15ze+UJ3cB+r0JgloSmAuZ9ZZJ8JNWAUCnWZFQnc0ksruVrgtrFGbIH8vdqdP+aDxBygz3+6rHZ57FuJqY8xtVf8AWJ5KcpJlQJ9Uq0PqgHzocNtz6JP/ALJ/tol5VjCRMjUkA+IBqLNxSiDY9pX9l61OVk+GWmISCB91SfeBU1cTXaBGA6Uf5pzkj8gqixKb6bvnV90o/wA05yR+VNUGLF/D591csuZn1eH9xDyRoVK1nfrWz2d9C39xH5RWJUbVttnfQt/cT+UUYfdnj47lQzaezWcS2Wnm0OIN8qr3GhG8EcReqDZf7PsHh3UutdcnKQoI65ZRIuJBMmDxNaEOf6h5p50SnS9dFkzzryjsImqFzYKs38l4Ib1KckkTc5VhQjxndwq8dNvLh8aiSo7iPAppSipbgm0dwWES0gIQLCfMmST4mpVEaGL8adUTx0uB5cRxqtEhbsyuxegOFw+J/eENsCCothLSQU5tIXO4EjStSj0zyrqb6KnlFNbHbN5t8aqUnLVkxgo3SJiaYCm8Zb66XpziQQQQCCCCDoR3iq4OtdaGurQTBOiYBtIjiQPZUtopJvYskqB0M12gm3UokJQhNzYKSJPIb9KnLivU9oovcViasR+0TEbTS5hf8PZW4lKy47lWhIVlKcra8yh2FArnw4Vt6rNsbew+FUyl9wIL6w22IJlR5CwkgSbXFMCTFM5lBUKByi0rtqYORWUnz91cTg27CHJt9Z2NCbHNbU+yiXXikxkUbTIiOVzTP3s/ZOf7f7qBk7bYSABPiST5m9VG1DigshrtIWMoMJlpXZ7RlQzIIzW1B5irZpciYI7jrQ+0dpssBBedS2FrS2jMYzLUYSkcT8AToDSauCdiLE4eTJzTlAJHWbp9RQGs9+ndXWsInQ55uJzOgX4kq50Q9iMpjItWhkRF+ZppxR+zc1j6vn6WlMCdpoJECY7yT7SSarscnEde2UEdWJzDjIjt2kxqIi+s1ZIVImCO461E7ikJUEqWlJOgJAmZiJ5Gpkrrew477XB8UyCom+kWDnCPqqg611vBNzELBH+pwC1rGdPfUy8QQrLkWe8ZY980397P2Tn+3iB63f7KoRO02EgATA4kk+ZM0zGfRr+6r3GpEGRNx3HWuPDsq5H3UAtzI4L+Z2PrfDiOEeyr9xWRI1OUeJtHxqDC7UwqRYgHfCD8E0m+kOEXmhYOVRQZQr0hqLpv4cKxhFR7zqrdpN6RdvIa+6FozaAyL3o7ZP0fif150MjbOF9EKTbcEm090c6Lbx7XVlYPYBiYOtt0TvFWo3loZzclTtJW+JM4lRBuRfdEjzBFQ9Wv1l7/ALP+2ojtln1v9qvlUC+kuFC0tl2FqBIGVV4nu7jbflVwNbdnPozl7WD70WjQMXknvj4ACn0ANsM+v/tV8qOBmk4yjuhxnGWzuYDpV/mnOSPyprP4oAka6fOtD0o/zTnJP5U1nsZ6Xhvjia45czPr8N7iHki/cbgkHdatHsvbrXVpQpRSpKQk9lR0ESCARFAY3CZxI1Htp2FwwQI3nWsoVHDY8qtkqwWbcPax7Q1xC1W3tDjrZsbrcqJb2wyNXFHmhXwTVaUimkVpxD6HNw8Pj+/IscRtdlSYDqkm1w2omxnRSCPZUbe02h/66z/7fdG5v9TVeU01QFNVn0KWFh8f35FwjbbAF3Ce8oX8E1DidrMqIh9SY1AbJnTXMgxpujWqlQFMIFV2rLWDp9X+/It0bYZAA/eF2Fz1eveYbozAbRbdWrq1TAvZQ394FZdQpYfHLZVnQAZEEHePhVKo+8JYGOV5b3/fgbc1TYHGYVbym0AdY2SZyxf0VQrfGhqrPSt37FP4j8qzuy3XGX+u9IkrOU6dskm47zW8HTaeZ69xxvCYlNZV56noqshzXc77ucZt/wAbu6nsuJEgZ95uFn2n3VkP4mev/KRvIubXqRHS14atJPiRbdurPOi+BrdPsbFtYIkT4gj2GqnbvRtjFrYW8FEsKUpEKgSoZTPHSqb+MHfsU/iPypfxe79in8R+VPOg4Gv0+qNU9h8xm2keiD7TSbw4BkeQSke0Cdb1lT0wd+wT+I/KkemDv2KfxH5UZ0Pgq/T7Gxqsx+w2n3UOu5l9X6CCf5aVXleQaqgxJmALRJmgHTF37FP4j8qQ6Yu/Yo/EflRnQuBr9PqjVu4eTNtI9FJ9pp4QZnMY4QPlNZH+MHfsUfiPyrn8ZO/Yp/EflRnQ+Br9PsbOqnFdHcO46HloUVghXprAkCBKQqDbcaoh0xd+xR+I/Kl/GTv2KPxH5UnKL3GsFiFsvqa1TNyoGCREwJ86clBmcxI4QKyH8ZO/Yp/EflSPTJ37BP4j8qedBwNd/wCfsbOo8SsBCidAkk+ArHnpm79ij8R+VRYvpU64hSA2lGYEEySYi8aQYpZ0OP8AH121dfUrEY1v1j+FXyrKOY3FLK1FlTSuuzDKpGVSCIJVCpzwANLVpUpt/wBV3IKxz6WPb4VNp32AujrykZ+uUo9lkJJkzlbAXpN808++tO3tpgYZSM5zFYMZF6SnfljcapLfruillFOFRwaaIr4CFaLjJvXoG/4m1vUR/wCKvlQGJx6OsQUoSdQpZT2kgA5QJEmSo6U4p5VweH6766HjZvdL9+Zwx/gKEdpS+n4CnNotiIXmteErEHhcVq2uleECQC6Zgf8ApucPu1ifAb65A0qJ4qc9y6f8FQpt5XL6fgK2vjUvvLcQDlMASLkJAE92nuqrxguL7t57zRSRp+vZQ2KTfw38z31z3u7nrqChBRXcbqaRNKlWB4Q0mmk0qVMpHCajUaVKqRokRk000qVWjREU0wiuUqpGyGRUav1/3SpUGqQyKQFKlQUcKa4RSpUFI6BTSK5SoBCNLKN9KlSGcjhXI5UqVAxRXFDgKVKgdjhpD9eylSoG0cKf1+vGuGlSoBHR+priqVKkUkNJ511I40qVADZ4UvEbv1FKlQMQNcP6NKlQMbP6+FCYxVxy+JpUqAkj/9k="
+            alt="Proje 1 Resmi"
+            class="w-full h-64 md:h-full md:w-1/2 object-cover object-center transition-transform duration-300 group-hover:scale-105"
+          />
+          <div class="p-6 text-left flex flex-col justify-center md:w-1/2">
+            <h3 class="text-2xl font-bold text-white mb-2">
+              E-Commerce Website
+            </h3>
+            <p class="text-gray-400 text-sm mb-4">
+              Product site with database using blade template made with PHP
+              Laravel; AI assisted designs, Add product page, Product edit page,
+              Product delete button, Product pages, Product detail page, Flash
+              messages.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs font-semibold">
+              <span
+                class="bg-red-600/20 text-white-400 px-2 py-1 rounded-full"
+                >Laravel</span
+              >
+              <span class="bg-blue-600/20 text-blue-400 px-2 py-1 rounded-full"
+                >Tailwind</span
+              >
+              <span
+                class="bg-green-600/20 text-green-400 px-2 py-1 rounded-full"
+                >Docker</span
+              >
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a
+        href="https://github.com/ahmetatasoycom/Car-Sale-Mobile-App"
+        target="_blank"
+        class="block"
+      >
+        <div
+          class="group bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+        >
+          <img
+            src="assets/img/project-placeholder-2.jpg"
+            alt="Proje 2 Resmi"
+            class="w-full h-48 object-cover object-center transition-transform duration-300 group-hover:scale-110"
+          />
+          <div class="p-6 text-left">
+            <h3 class="text-xl font-bold text-white mb-2">Car Sale Mobile App</h3>
+            <p class="text-gray-400 text-sm mb-4"></p>
+            <div class="flex flex-wrap gap-2 text-xs font-semibold">
+              <span
+                class="bg-yellow-600/20 text-yellow-400 px-2 py-1 rounded-full"
+                >Flutter</span
+              >
+              <span class="bg-red-600/20 text-red-400 px-2 py-1 rounded-full"
+                >Dart</span
+              >
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <!-- <a
+        href="https://github.com/your-username/project-3"
+        target="_blank"
+        class="block"
+      >
+        <div
+          class="group bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+        >
+          <img
+            src="assets/img/project-placeholder-3.jpg"
+            alt="Proje 3 Resmi"
+            class="w-full h-48 object-cover object-center transition-transform duration-300 group-hover:scale-110"
+          />
+          <div class="p-6 text-left">
+            <h3 class="text-xl font-bold text-white mb-2">Proje Başlığı 3</h3>
+            <p class="text-gray-400 text-sm mb-4">
+              Kapsamlı bir e-ticaret platformu için tasarlanmış modern bir
+              frontend arayüzü.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs font-semibold">
+              <span class="bg-gray-600/20 text-gray-400 px-2 py-1 rounded-full"
+                >Next.js</span
+              >
+              <span
+                class="bg-indigo-600/20 text-indigo-400 px-2 py-1 rounded-full"
+                >TypeScript</span
+              >
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a
+        href="https://github.com/your-username/project-4"
+        target="_blank"
+        class="block"
+      >
+        <div
+          class="group bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+        >
+          <img
+            src="assets/img/project-placeholder-4.jpg"
+            alt="Proje 4 Resmi"
+            class="w-full h-48 object-cover object-center transition-transform duration-300 group-hover:scale-110"
+          />
+          <div class="p-6 text-left">
+            <h3 class="text-xl font-bold text-white mb-2">Proje Başlığı 4</h3>
+            <p class="text-gray-400 text-sm mb-4">
+              RESTful API'ler ve mikroservis mimarisi üzerine kurulu bir backend
+              projesi.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs font-semibold">
+              <span class="bg-cyan-600/20 text-cyan-400 px-2 py-1 rounded-full"
+                >Python</span
+              >
+              <span class="bg-teal-600/20 text-teal-400 px-2 py-1 rounded-full"
+                >Flask</span
+              >
+            </div>
+          </div>
+        </div>
+      </a>
+
+      <a
+        href="https://github.com/your-username/project-5"
+        target="_blank"
+        class="block"
+      >
+        <div
+          class="group bg-neutral-900 border border-neutral-800 rounded-xl overflow-hidden shadow-xl transform transition-transform duration-300 hover:scale-105 hover:shadow-2xl"
+        >
+          <img
+            src="assets/img/project-placeholder-5.jpg"
+            alt="Proje 5 Resmi"
+            class="w-full h-48 object-cover object-center transition-transform duration-300 group-hover:scale-110"
+          />
+          <div class="p-6 text-left">
+            <h3 class="text-xl font-bold text-white mb-2">Proje Başlığı 5</h3>
+            <p class="text-gray-400 text-sm mb-4">
+              Veri analizi ve görselleştirme için geliştirilmiş bir araç.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs font-semibold">
+              <span
+                class="bg-orange-600/20 text-orange-400 px-2 py-1 rounded-full"
+                >Jupyter</span
+              >
+              <span
+                class="bg-emerald-600/20 text-emerald-400 px-2 py-1 rounded-full"
+                >Pandas</span
+              >
+            </div>
+          </div>
+        </div>
+      </a> -->
+    </div>
+    <script src="script.js"></script>
+    <script>
+      // GitHub API'den verileri çekmek için fonksiyon
+      async function getGithubStats() {
+        const username = "ahmetatasoycom"; // Kendi GitHub kullanıcı adınızı buraya yazın
+        const apiUrl = `https://api.github.com/users/${username}`;
+        const reposUrl = `https://api.github.com/users/${username}/repos`;
+
+        try {
+          const userResponse = await fetch(apiUrl);
+          const userData = await userResponse.json();
+
+          const reposResponse = await fetch(reposUrl);
+          const reposData = await reposResponse.json();
+
+          const followersCount = userData.followers;
+          const reposCount = userData.public_repos;
+          let starsCount = 0;
+          let forksCount = 0;
+
+          reposData.forEach((repo) => {
+            starsCount += repo.stargazers_count;
+            forksCount += repo.forks_count;
+          });
+
+          // HTML elementlerine verileri yerleştirme
+          document.getElementById("github-followers").textContent =
+            followersCount;
+          document.getElementById("github-stars").textContent = starsCount;
+          document.getElementById("github-repos").textContent = reposCount;
+          document.getElementById("github-forks").textContent = forksCount;
+        } catch (error) {
+          console.error("GitHub verileri çekilemedi:", error);
+          // Hata durumunda varsayılan metni koru
+        }
+      }
+
+      // Sayfa yüklendiğinde fonksiyonu çalıştır
+      getGithubStats();
+    </script>
+  </body>
+</html>
